@@ -27,7 +27,7 @@ $ cd json_exporter && make ; cd ..
 Run the exporter using one of the config files you get from this repo (metrics by default will be availanle at HTTP port 7979)
 
 ```console
-$ ./json_exporter/json_exporter --config.file config.yaml &
+$ ./json_exporter/json_exporter --config.file config_errors.yaml &
 ```
 
 Test it by scraping metrics (remember to change the placeholder **\<MY OIC INSTANCE\>** accordingly)

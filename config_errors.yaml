@@ -3,6 +3,7 @@ metrics:
 - name: errored_instances_in_the_past_hour_count
   path: "{ .totalResults }"
   help: Retrieves information about all integration instances that have a errored status in the past hour (https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/op-ic-api-integration-v1-monitoring-errors-get.html)
+  
 http_client_config:
    tls_config:
      insecure_skip_verify: true
